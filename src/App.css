@@ -1,0 +1,154 @@
+body{
+  position: relative;
+
+
+}
+
+
+.dispaly-input{
+display: flex;
+justify-content: start;
+}
+
+/* CSS for first file "card1"   */
+
+.card1{
+ position:absolute;
+ /*border: 1px solid  red;*/
+ background-image: url("https://i-h1.pinimg.com/564x/40/19/e8/4019e8875533c71af5081e692bd6747c.jpg");
+ background-size: 100% 100%;
+ height: 360px;
+  width:530px;
+ border-radius: 30px;
+ 
+
+
+}
+
+.card1 h1{
+  color:white;
+  margin: 20px  80px;
+  font-size: 40px;
+  text-align: end;
+
+
+}
+.image2{
+  width: 100px;
+  height:80px ;
+  margin: 0px 50px 10px 50px;
+ 
+}
+.number{
+ border: 1px solid yellowgreen;
+ height: 35px;
+  width:350px;
+  margin: 0px 45px;
+ color: gold;
+ background-color: rgba(231, 193, 24, 0.5);
+ font-size: 28px;
+} 
+
+.total {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+ /* border: 1px solid green;*/
+
+
+}
+.image3{
+
+  width:80px;
+  height:100px;
+  
+ /*border: 1px solid black;*/
+}
+
+
+
+.low-card{
+  width: 310px;
+ /*border: 1px solid hotpink;*/
+
+}
+.thru{
+  
+  display: flex;
+  justify-content: flex-end;
+  /*border: 1px solid  green ;*/
+  
+}
+
+.describe{
+  /* border: 1px solid blue ;*/
+   width:120px;
+   color: white;
+
+}
+
+
+.describe h6{
+  margin-top: 0px;
+  /*border: 1px solid sienna; */
+}
+.describe h3{
+  margin-top: 10px;
+  font-size: 28px;
+ border: 1px solid sienna;
+ height:30px ;
+
+}
+
+
+.valid{
+  /*border: 1px solid yellow ;*/
+  width:50px;
+  height:auto;
+  color: white;
+  text-align: center;
+ 
+  
+}
+/*.valid h4{
+  
+  font-size: 11px;
+  text-align:end; 
+}
+.valid h5{
+  margin-top: 0px;
+  font-size: 11px;
+  text-align:end; 
+}*/
+
+.name{
+  margin: 0px 0px -20px 0px;
+  border: 1px solid  red ;
+  height:30px ;
+  width: 310px;
+  color: white;
+ 
+}
+ 
+.name span {
+  font-size: 22px;
+  margin-left: 0px;
+  text-align: start;
+  color: white;
+}
+
+/* CSS for second file "card2"   */
+
+.card2 {
+  width: 400px;
+  margin: 100px 600px ;
+  position: absolute;
+  /*border: 1px solid  red ;*/
+  
+ 
+}
+
+.form-control{
+  width:300px; 
+  margin:10px;
+}
